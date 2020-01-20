@@ -1,0 +1,17 @@
+# spring session
+spring:
+  session:
+    store-type: redis
+    redis:
+      flush-mode: on-save
+      namespace: spring:session
+  redis:
+    host: 10.10.101.159
+    password:
+    port: 6379
+
+security:
+  oauth2:
+    client:
+      client-id: oauth-client
+      client-secret: secret
