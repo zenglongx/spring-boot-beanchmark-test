@@ -6,7 +6,7 @@
 
     <groupId>com.springboot.beanchmark</groupId>
     <artifactId>springboot-beanchmark-test</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>${revision}</version>
     <modules>
         <module>beanchmark-view</module>
         <module>beanchmark-rest</module>
@@ -14,6 +14,9 @@
         <module>beanchmark-session</module>
         <module>beanchmark-oauth</module>
         <module>beanchmark-oauth-sso</module>
+        <module>beanchmark-dubbo</module>
+        <module>beanchmark-dubbo-api</module>
+        <module>beanchmark-webflux</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -21,6 +24,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
+        <revision>1.0-SNAPSHOT</revision>
     </properties>
     <parent>
         <groupId>org.springframework.boot</groupId>

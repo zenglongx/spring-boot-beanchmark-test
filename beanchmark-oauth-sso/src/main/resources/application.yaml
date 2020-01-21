@@ -1,5 +1,7 @@
 # spring session
 spring:
+  application:
+    name: beanchmark-oauth-sso
   session:
     store-type: redis
     redis:
