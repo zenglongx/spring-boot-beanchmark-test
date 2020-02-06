@@ -6,7 +6,7 @@ spring:
       flush-mode: on-save
       namespace: spring:session
   redis:
-    host: 10.10.101.159
+    host: 10.10.101.161
     password:
     port: 6379
   security:

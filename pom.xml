@@ -12,8 +12,10 @@
         <module>beanchmark-rest</module>
         <module>beanchmark-login</module>
         <module>beanchmark-session</module>
+        <module>beanchmark-session-reactive</module>
         <module>beanchmark-oauth</module>
         <module>beanchmark-oauth-sso</module>
+        <module>beanchmark-oauth-sso-reactive</module>
         <module>beanchmark-dubbo</module>
         <module>beanchmark-dubbo-api</module>
         <module>beanchmark-webflux</module>

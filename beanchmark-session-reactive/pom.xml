@@ -11,13 +11,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.springboot.beanchmark</groupId>
-    <artifactId>beanchmark-oauth-sso</artifactId>
+    <artifactId>beanchmark-session-reactive</artifactId>
     <version>${revision}</version>
 
 
-    <properties>
-        <dubbo.version>2.7.5</dubbo.version>
-    </properties>
     <!-- Add typical dependencies for a web application -->
     <dependencies>
         <dependency>
@@ -26,39 +23,15 @@
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-data-redis</artifactId>
+            <artifactId>spring-boot-starter-security</artifactId>
         </dependency>
-       <!-- <dependency>
+        <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-redis-reactive</artifactId>
-        </dependency>-->
+        </dependency>
         <dependency>
             <groupId>org.springframework.session</groupId>
             <artifactId>spring-session-data-redis</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.security.oauth.boot</groupId>
-            <artifactId>spring-security-oauth2-autoconfigure</artifactId>
-            <version>2.2.3.RELEASE</version>
-        </dependency>
-        <!-- Dubbo Spring Boot Starter -->
-        <dependency>
-            <groupId>org.apache.dubbo</groupId>
-            <artifactId>dubbo-spring-boot-starter</artifactId>
-            <version>${dubbo.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>com.beanchmark.dubbo</groupId>
-            <artifactId>beanchmark-dubbo-api</artifactId>
-            <version>${revision}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-actuator</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.commons</groupId>
-            <artifactId>commons-pool2</artifactId>
         </dependency>
     </dependencies>
 

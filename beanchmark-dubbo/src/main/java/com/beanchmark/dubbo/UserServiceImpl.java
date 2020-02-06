@@ -8,6 +8,8 @@ import org.apache.dubbo.config.annotation.Service;
 public class UserServiceImpl implements UserService {
     @Override
     public UserDto findUserByUsername(String username) {
-        return new UserDto("user","$2a$10$H1EUcEBNb6HL0pC9rieF9OLG80HlvKPN1TV2lK9lWd.JR561/zwrW");
+        return new UserDto(username,"password");
+//        return new UserDto(username,"$2a$04$CLu8kvKxz.A4F3CVsJa9Meiu3sMey6z89pl9fX5rSkeIkbii4I6LC");
+//        return new UserDto(username,"{dmWnXm8c66ewL3NjbwSc5IqT9R8pPJ7oAV1hjxKSybU=}72b0de71def11d4f722ee9ec2668ffa4");
     }
 }
